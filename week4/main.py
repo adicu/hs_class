@@ -8,3 +8,4 @@ def sieve(n):
     # Put your implementation here
 
 assertEqual(sieve(20), [2, 3, 5, 7, 11, 13, 17, 19])
+print("Good Job! The code works.")
