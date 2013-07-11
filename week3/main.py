@@ -12,3 +12,5 @@ def euclid(a, b):
 assertEqual(euclid(6, 4), 2)
 assertEqual(euclid(13, 7), 1)
 assertEqual(euclid(48, 72), 24)
+
+print("Good Job! The code works.")
