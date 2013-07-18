@@ -2,7 +2,7 @@ import sys
 import pantograph
 import random
 
-class BouncingBallHandler(pantograph.PantographHandler):
+class BouncingBall(pantograph.PantographHandler):
     def setup(self):
         # This method is run once when the animation starts.
         # Put any initialization code for your animation here.
@@ -26,7 +26,5 @@ class BouncingBallHandler(pantograph.PantographHandler):
 
 
 if __name__ == '__main__':
-    app = pantograph.PantographApplication([
-        ("Pantograph", "/", BouncingBallHandler)
-    ])
+    app = pantograph.SimplePantographApplication(BouncingBall)
     app.run()
