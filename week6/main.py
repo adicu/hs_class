@@ -19,7 +19,7 @@ class BouncingBallHandler(pantograph.PantographHandler):
         self.y += self.yvel
 
         self.clear_rect(0, 0, self.width, self.height)
-        self.fill_circle(self.x, self.y, 10, "#f00")
+        self.fill_circle(self.x, self.y, 10, "red")
 
 
 if __name__ == '__main__':
